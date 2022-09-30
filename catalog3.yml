@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-app3
+  title: BackstageApp3
+  description: Catalog registration for backstage-app3
+  namespace: backstage-project
+  annotations:
+    backstage.io/techdocs-ref: dir:./
+  tags:
+    - sre-platform
+    - backstage-project
+  links: []
+spec:
+  type: service
+  lifecycle: experimental
+  owner: example-tribe1-team1
+  system: backstage-project
